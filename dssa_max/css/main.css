@@ -1007,7 +1007,7 @@ td, th {
 }
 
 .sticky-wrapper.is-sticky .default-header {
-  background: #263a4e;
+  background:rgba(0, 0, 0, 0.7);
   box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3)
 }
 
@@ -1022,7 +1022,7 @@ td, th {
 
 @media (max-width: 991px) {
   .default-header {
-    background: #263a4e
+    background: rgba(0, 0, 0, 0.7);
   }
 }
 
@@ -1228,7 +1228,7 @@ td, th {
 
 .home-banner-area .overlay {
   background: rgb(2, 0, 36);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(9, 9, 9, 0.33657212885154064) 31%, rgba(9, 9, 9, 0) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(9, 9, 9, 0.1) 31%, rgba(9, 9, 9, 0) 100%);
   z-index: 1;
 }
 
@@ -1340,9 +1340,11 @@ td, th {
   min-height: 450px
 }
 
+
+
 .banner-area .overlay-bg {
   background: rgba(7, 4, 31, 0.6);
-  z-index: 10
+  z-index: 0;
 }
 
 .banner-area h1 {

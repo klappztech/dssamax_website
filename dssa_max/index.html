@@ -29,16 +29,71 @@
 	<link rel="stylesheet" href="css/nice-select.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/klappztech/extra_styles.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
 <body>
 	<!-- floating buttons -->
 
-	<a id="whatsapp-button" class="floating-button "
-	href="https://api.whatsapp.com/send?phone=8861133005&text=I%20want%20to%20know%20more%20about%20your%20services">
-	<i class="fa fa-whatsapp"></i> Send Enquiry</a>
+	<a id="whatsapp-button" class="floating-button " data-toggle="modal" data-target="#myModal"
+		href="https://api.whatsapp.com/send?phone=8861133005&text=I%20want%20to%20know%20more%20about%20your%20services">
+		<i class="fa fa-whatsapp"></i>   Contact Us</a>
 
+
+	<!-- modal box-->
+
+	<!-- Modal -->
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Quick Contacts</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="container">
+							<div class="contact_info">
+								<div class="info_item">
+									<i class="fa fa-home"></i>
+									<h6>Sarjapur Road, Bangalore</h6>
+									<p>Shop No.1, 1st Floor, Near Sri KrishnaTemple, Dommasandra - 562125</p>
+								</div>
+								<div class="info_item">
+									<i class="fa fa-phone"></i>
+									<h6><a href="#">00 (440) 9865 562</a></h6>
+									<p>Round the Clock support</p>
+								</div>
+								<div class="info_item">
+									<i class="fa fa-envelope"></i>
+									<h6><a href="#">dssamax@gmail.com</a></h6>
+									<p>Send us an email!</p>
+								</div>
+								<div class="info_item">
+									<i class="fa fa-globe"></i>
+									<h6><a href="#">Send Us a Message</a></h6>
+									<p>Send us your query anytime!</p>
+								</div>
+								<div class="info_item">
+									<i class="fa fa-whatsapp"></i>
+									<h6><a href="#">Whatsapp</a></h6>
+									<p>Send us Message in WhatsApp!</p>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
 	<!-- Start Header Area -->
 	<header class="default-header">
 		<nav class="navbar navbar-expand-lg navbar-light">
@@ -76,7 +131,8 @@
 							</div>
 						</li>
 
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="contact.html">Contact</a>
+						</li>
 					</ul>
 					<a href="tel: 8861133005" class="genric-btn info circle arrow">9988776655</a>
 
@@ -105,6 +161,9 @@
 						<h2>With Us</h2>
 
 						<a href="#" class="primary-btn">View project</a>
+						<!-- <a href="#" class="primary-btn">9878675645</a>
+						<a href="#" class="primary-btn">W</a> -->
+
 					</div>
 				</div>
 			</div>
@@ -131,56 +190,56 @@
 		<div class="container">
 			<div class="row feature_inner">
 				<div class="col-lg-3 col-md-6">
-					<div class="feature-item">
+					<div class="feature-item" data-aos="fade-down">
 						<div class="fi"><img src="img/services/1.png" /></div>
 						<h4>Building Construction</h4>
 						<p>Architectural Design, Structural Design, 2D/3D Design</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="feature-item">
+					<div class="feature-item" data-aos="fade-down">
 						<div class="fi"><img src="img/services/2.png" /></div>
 						<h4>2D & 3D Designs</h4>
 						<p>Estimation of Project, Saction Plan (Panchayath, B.B.M.P, BDA)</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="feature-item">
+					<div class="feature-item" data-aos="fade-down">
 						<div class="fi"><img src="img/services/3.png" /></div>
 						<h4>Sanction Plans</h4>
 						<p>Any services related to CAD applications</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="feature-item">
+					<div class="feature-item" data-aos="fade-down">
 						<div class="fi"><img src="img/services/4.png" /></div>
 						<h4>Estimation of Projects</h4>
 						<p>Tailor made packages suiting your Requirement and Budget</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="feature-item">
+					<div class="feature-item" data-aos="fade-down">
 						<div class="fi"><img src="img/services/5.png" /></div>
 						<h4>Architectural Design</h4>
 						<p>Tailor made packages suiting your Requirement and Budget</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="feature-item">
+					<div class="feature-item" data-aos="fade-down">
 						<div class="fi"><img src="img/services/6.png" /></div>
 						<h4>Structural Design</h4>
 						<p>Tailor made packages suiting your Requirement and Budget</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="feature-item">
+					<div class="feature-item" data-aos="fade-down">
 						<div class="fi"><img src="img/services/7.png" /></div>
 						<h4>CAD Applications</h4>
 						<p>Tailor made packages suiting your Requirement and Budget</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="feature-item">
+					<div class="feature-item" data-aos="fade-down">
 						<div class="fi"><img src="img/services/8.png" /></div>
 						<h4>Labour Coordination</h4>
 						<p>Tailor made packages suiting your Requirement and Budget</p>
@@ -235,7 +294,7 @@
 
 								<!--BLOCK ROW START-->
 								<div class="row">
-									<div class="col-md-4">
+									<div class="col-md-4" data-aos="flip-left">
 
 										<!--PRICE CONTENT START-->
 										<div class="generic_content clearfix">
@@ -291,7 +350,7 @@
 
 									</div>
 
-									<div class="col-md-4">
+									<div class="col-md-4" data-aos="flip-left">
 
 										<!--PRICE CONTENT START-->
 										<div class="generic_content active clearfix">
@@ -346,7 +405,7 @@
 										<!--//PRICE CONTENT END-->
 
 									</div>
-									<div class="col-md-4">
+									<div class="col-md-4" data-aos="flip-left">
 
 										<!--PRICE CONTENT START-->
 										<div class="generic_content clearfix">
@@ -511,12 +570,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="call-wrap mx-auto">
-					<h1>View Our Project </h1>
+					<h1>View Our Ad </h1>
 					<a id="play-home-video" class="video-play-button"
-						href="https://www.youtube.com/watch?v=_C5vCGB8Xx0">
+						href="https://www.youtube.com/watch?v=IizdDxy3yR4">
 						<span></span>
 					</a>
-					<p>05:35</p>
+					<p>00:20</p>
 				</div>
 			</div>
 		</div>
@@ -735,6 +794,13 @@
 	<script src="js/jquery.sticky.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/klappztech/extra_features.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+	AOS.init({
+		duration: 800,
+	  })
+	</script>
+	
 </body>
 
 </html>
