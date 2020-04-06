@@ -38,7 +38,7 @@
 
 	<a id="whatsapp-button" class="floating-button " data-toggle="modal" data-target="#myModal"
 		href="https://api.whatsapp.com/send?phone=8861133005&text=I%20want%20to%20know%20more%20about%20your%20services">
-		<i class="fa fa-whatsapp"></i>   Contact Us</a>
+		<i class="fa fa-whatsapp"></i> Contact Us</a>
 
 
 	<!-- modal box-->
@@ -185,6 +185,86 @@
 	</section>
 	<!-- End banner Area -->
 
+	<!-- Start About Area -->
+	<section class="about-area section-gap">
+		<div class="container">
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-7 col-md-12 about-left">
+					<img class="img-fluid" src="img/about.png" alt="">
+				</div>
+				<div class="col-lg-5 col-md-12 about-right">
+					<div class="section-title text-left">
+						<h4>About Us</h4>
+						<h2>DSSA MAX <br />Has Passion for Constructing Quality Building</h2>
+					</div>
+					<div>
+						<p>
+							A construction company, with substantial experience in managing and delivering a diverse
+							range of projects. Our problem-solving approach focuses entirely on your goals.
+						</p>
+					</div>
+					<a href="#" class="primary-btn">Read More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End About Area -->
+
+	<!-- Start Enquiry Area -->
+	<section class="enquiry-area section-gap">
+		<div class="container">
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-5 col-md-12 about-left">
+					<div class="section-title text-left">
+						<h2>Send Us an Enquiry</h2>
+					</div>
+					<div>
+						<p>
+							A construction company, with substantial experience in managing and delivering a diverse
+							range of projects. Our problem-solving approach focuses entirely on your goals.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-12 about-right">
+					<form class="row contact_form" action="contact_process.php" method="post" id="contactForm"
+						novalidate="novalidate">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name"
+									placeholder="Enter your name" onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Enter your name'" required="" />
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="email" name="email"
+									placeholder="Enter email address" onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Enter email address'" required="" />
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="subject" name="subject"
+									placeholder="Enter Subject" onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Enter Subject'" required="" />
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<textarea class="form-control" name="message" id="message" rows="1"
+									placeholder="Enter Message" onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Enter Message'" required=""></textarea>
+							</div>
+						</div>
+						<div class="col-md-12 text-right">
+							<button type="submit" value="submit" class="btn primary-btn genric-btn warning-border">
+								Send Message
+							</button>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Enquiry Area -->
+
 	<!-- Start features Area -->
 	<section class="features-area section-gap-top" id="news">
 		<div class="container">
@@ -250,30 +330,6 @@
 	</section>
 	<!-- End features Area -->
 
-	<!-- Start About Area -->
-	<section class="about-area section-gap">
-		<div class="container">
-			<div class="row align-items-center justify-content-center">
-				<div class="col-lg-7 col-md-12 about-left">
-					<img class="img-fluid" src="img/about.png" alt="">
-				</div>
-				<div class="col-lg-5 col-md-12 about-right">
-					<div class="section-title text-left">
-						<h4>About Us</h4>
-						<h2>DSSA MAX <br />Has Passion for Constructing Quality Building</h2>
-					</div>
-					<div>
-						<p>
-							A construction company, with substantial experience in managing and delivering a diverse
-							range of projects. Our problem-solving approach focuses entirely on your goals.
-						</p>
-					</div>
-					<a href="#" class="primary-btn">Read More</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End About Area -->
 
 	<!-- Start Pricing Area -->
 	<section class="pricing-area relative section-gap" id="pricing">
@@ -796,11 +852,11 @@
 	<script src="js/klappztech/extra_features.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
-	AOS.init({
-		duration: 800,
-	  })
+		AOS.init({
+			duration: 800,
+		})
 	</script>
-	
+
 </body>
 
 </html>

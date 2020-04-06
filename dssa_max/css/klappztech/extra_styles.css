@@ -3,12 +3,23 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,700,900italic,900);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+
+
+
+:root {
+    --darkblue:#454b5f;
+    --brightblue:#4c82c3;
+    --yelloworange:#fbba00;
+}
+
+
+
 body {
-    background-color: #eee;
+    background-color: #FFFFFF;
 }
 
 #generic_price_table {
-    background-color: #f0eded;
+    /* background-color: #f0eded; */
 }
 
 /*PRICE COLOR CODE START*/
@@ -454,11 +465,12 @@ body {
 }
 
 .pricing-area {
-    background: #263A4E;
+    background: #094074;
+    background-image: url(https://codex-themes.com/thegem/sites/building-construction/wp-content/uploads/2018/12/7.jpg);
 }
 
 #generic_price_table .container .row {
-    background-color: #263A4E;
+    /* background-color: #094074; */
 }
 
 .section-title-inv h2 {

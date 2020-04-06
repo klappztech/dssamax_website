@@ -416,11 +416,11 @@ $(function()
 
   
       if (scroll < 10 && width > 991) {
-        lrg_logo.slideDown("fast");
+        lrg_logo.slideDown("slow");
         sml_logo.fadeOut("fast");
       } else {
-        sml_logo.fadeIn("slow");
-        lrg_logo.slideUp("fast");
+        lrg_logo.slideUp("slow", "swing", function() {sml_logo.slideDown("fast");
+      });
 
       }
   
