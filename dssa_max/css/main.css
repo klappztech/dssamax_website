@@ -1261,6 +1261,15 @@ td, th {
   }
 }
 
+@media (max-width: 320px) {
+  .home-banner-area .banner-content {
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+    background: none;
+    margin-top: 45%;
+  }
+}
 .home-banner-area .banner-content h1 {
   color: #fff;
   font-size: 82px;
@@ -1373,7 +1382,6 @@ td, th {
   .banner-area h2 {
     color: white;
     margin-top: 70px;
-
   }
 }
 
@@ -4234,15 +4242,24 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.lrg-logo {
-  width: 100px;
-  height: 200px;
-  text-align: center;
-  background-image: url("../img/logo.jpg");
+  .lrg-logo {
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    left: 10%x;
+    width: 100px;
+    height: 200px;
+    text-align: center;
+    background-image: url("../img/logo.jpg");
+  }
+@media (max-width: 991px) {
+  .lrg-logo {
+    display: none;
+  }
 }
 
 .sml-logo {
-  display: none;
+  visibility: hidden;
   width: 120px;
   height: 60px;
   text-align: center;
@@ -4257,7 +4274,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   .sml-logo {
-    display: block;
+    visibility: visible;
   }
 }
 
