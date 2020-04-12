@@ -1226,16 +1226,22 @@ td, th {
   }
 }
 
-.home-banner-area .overlay {
-  background: rgb(9, 64, 116, .3);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.1) 31%, rgba(255, 255, 255, 0) 100%);
-  z-index: 1;
+  .home-banner-area .overlay {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.1) 31%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+  }
+
+@media (max-width: 991px) {
+  .home-banner-area .overlay {
+    background: rgb(9, 64, 116, .3);
+    z-index: 1;
+  }
 }
 
 .home-banner-area .banner-content {
   margin-top: 30%;
   z-index: 1;
-   /* background: rgba(0, 0, 0, 0.3);  */
+  /* background: rgba(0, 0, 0, 0.3);  */
   /* width: 66%; */
   padding: 25px;
   height: 400px;
@@ -1243,7 +1249,7 @@ td, th {
 
 @media (max-width: 991px) {
   .home-banner-area .banner-content {
-    margin-top: 30%;
+    margin-top: 20%;
     text-align: center;
     flex: 0 0 100%;
     max-width: 100%;
@@ -1254,6 +1260,7 @@ td, th {
 
 @media (max-width: 767px) {
   .home-banner-area .banner-content {
+    margin-top: 35%;
     text-align: center;
     flex: 0 0 100%;
     max-width: 100%;
@@ -1270,13 +1277,14 @@ td, th {
     margin-top: 45%;
   }
 }
+
 .home-banner-area .banner-content .hh1 {
   color: #fff;
   font-size: 82px;
   line-height: 100px;
   font-weight: 700;
   text-transform: uppercase;
-  background:var(--yelloworange);
+  background: var(--yelloworange);
   /* margin:10px; */
   padding: 0px 20px 0px 20px;
 }
@@ -1286,9 +1294,9 @@ td, th {
   font-size: 52px;
   font-weight: 700;
   text-transform: uppercase;
-  width:100%;
-  background:var(--darkblue);
-  margin:10px;
+  width: 100%;
+  background: var(--darkblue);
+  margin: 10px;
   padding: 0px 10px 0px 10px;
 }
 
@@ -1312,8 +1320,8 @@ td, th {
 
 @media (max-width: 991.98px) {
   .home-banner-area .banner-content .hh1 {
-    font-size: 45px;
-    line-height: 60px
+    font-size: 65px;
+    line-height: 90px
   }
 }
 
@@ -1339,8 +1347,18 @@ td, th {
 
 .home-banner-area .banner-content .primary-btn {
   border: 1px solid #fff;
-  color: #fff;
-  margin-top: 20px
+  color: var(--darkblue);
+  margin-top: 20px;
+  background-color: white;
+}
+
+@media (max-width: 767px) {
+.home-banner-area .banner-content .primary-btn {
+  border: 1px solid #fff;
+  color: var(--darkblue);
+  margin-top: 20px;
+  /* background-color: white; */
+}
 }
 
 .home-banner-area .banner-content .primary-btn:hover {
@@ -1383,12 +1401,17 @@ td, th {
 
 .banner-area h2 {
   margin-top: 60px;
+  color: white;
+  font-size: 40px;
+  text-shadow: 0px 4px 20px #00000088;
+
 }
 
 @media (max-width: 991px) {
   .banner-area h2 {
     color: white;
-    margin-top: 70px;
+    font-size: 32px;
+
   }
 }
 
@@ -1922,7 +1945,7 @@ td, th {
 
 .contact_info .info_item {
   position: relative;
-  padding-left: 45px
+  padding-left: 45px;
 }
 
 .contact_info .info_item i {
@@ -1945,7 +1968,8 @@ td, th {
 }
 
 .contact_info .info_item h6 a {
-  color: var(--darkblue)
+  color: var(--brightblue);
+  text-decoration: underline;
 }
 
 .contact_info .info_item p {
@@ -4249,16 +4273,17 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-  .lrg-logo {
-    display: inline-block;
-    position: fixed;
-    top: 0px;
-    left: 10%x;
-    width: 100px;
-    height: 200px;
-    text-align: center;
-    background-image: url("../img/logo.jpg");
-  }
+.lrg-logo {
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+  left: 10%x;
+  width: 100px;
+  height: 200px;
+  text-align: center;
+  background-image: url("../img/logo.jpg");
+}
+
 @media (max-width: 991px) {
   .lrg-logo {
     display: none;
