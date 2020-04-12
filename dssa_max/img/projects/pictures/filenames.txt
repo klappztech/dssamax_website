@@ -1,0 +1,47 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 3AF2-A7F8
+
+ Directory of C:\wamp32\www\dssamax_website\dssa_max\img\projects\pictures
+
+12-04-2020  22:07    <DIR>          .
+12-04-2020  22:07    <DIR>          ..
+12-04-2020  22:06            79,221 01-lg.jpg
+12-04-2020  22:06            13,150 01-sm.jpg
+12-04-2020  22:06            96,631 asrf-lg.jpg
+12-04-2020  22:06            15,209 asrf-sm.jpg
+12-04-2020  22:06            80,813 cheriyan01-lg.jpg
+12-04-2020  22:06            13,459 cheriyan01-sm.jpg
+12-04-2020  22:07                 0 filenames.txt
+12-04-2020  22:06            67,846 harikrishnan-lg.jpg
+12-04-2020  22:06            13,254 harikrishnan-sm.jpg
+12-04-2020  22:06            89,471 jimmy-lg.jpg
+12-04-2020  22:06            17,208 jimmy-sm.jpg
+12-04-2020  22:06            80,778 jolly-lg.jpg
+12-04-2020  22:06            16,115 jolly-sm.jpg
+12-04-2020  22:06           121,607 kallesh-lg.jpg
+12-04-2020  22:06            18,476 kallesh-sm.jpg
+12-04-2020  22:06            57,959 kidzee-lg.jpg
+12-04-2020  22:06            11,594 kidzee-sm.jpg
+12-04-2020  22:06            81,847 mohanthi-lg.jpg
+12-04-2020  22:06            17,956 mohanthi-sm.jpg
+12-04-2020  22:06            98,291 neelimaputta-lg.jpg
+12-04-2020  22:06            20,050 neelimaputta-sm.jpg
+12-04-2020  22:06            89,053 punarjani01-lg.jpg
+12-04-2020  22:06            16,897 punarjani01-sm.jpg
+12-04-2020  22:06            60,836 reji01-lg.jpg
+12-04-2020  22:06            13,755 reji01-sm.jpg
+12-04-2020  22:06            77,791 rijo-lg.jpg
+12-04-2020  22:06            17,076 rijo-sm.jpg
+12-04-2020  22:06            38,668 roy-lg.jpg
+12-04-2020  22:06            13,640 roy-sm.jpg
+12-04-2020  22:06            91,035 saji-lg.jpg
+12-04-2020  22:06            16,447 saji-sm.jpg
+12-04-2020  22:06            70,733 suneeth-lg.jpg
+12-04-2020  22:06            14,144 suneeth-sm.jpg
+12-04-2020  22:06            74,789 sunil-lg.jpg
+12-04-2020  22:06            13,418 sunil-sm.jpg
+12-04-2020  22:06            47,837 thomas-lg.jpg
+12-04-2020  22:06             9,633 thomas-sm.jpg
+12-04-2020  22:06            70,595 yohannan-lg.jpg
+              38 File(s)      1,747,282 bytes
+               2 Dir(s)  10,176,028,672 bytes free
