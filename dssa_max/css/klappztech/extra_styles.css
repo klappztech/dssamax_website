@@ -494,7 +494,7 @@ body {
     display: inline-block;
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    left: 30px;
     transition: background-color .3s, opacity .5s, visibility .5s;
     background-color:var(--yelloworange);
     border: none;
